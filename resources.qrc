@@ -1,0 +1,40 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/1.png</file>
+        <file>images/2.png</file>
+        <file>images/3.png</file>
+        <file>images/4.png</file>
+        <file>images/5.png</file>
+        <file>images/6.png</file>
+        <file>images/7.png</file>
+        <file>images/8.png</file>
+        <file>images/9.png</file>
+        <file>images/10.png</file>
+        <file>images/back.png</file>
+        <file>images/background.jpg</file>
+        <file>sounds/found.wav</file>
+        <file>sounds/notfound.wav</file>
+        <file>sounds/start.wav</file>
+        <file>sounds/finished.wav</file>
+        <file>images/mute.png</file>
+        <file>images/unmute.png</file>
+        <file>sounds/clicked.wav</file>
+        <file>sounds/newDeal.wav</file>
+        <file>images/flowersicon.ico</file>
+        <file>images/flowersicon.png</file>
+        <file>images/sunflowers.jpg</file>
+        <file>images/flag_es.png</file>
+        <file>images/flag_de.png</file>
+        <file>images/flag_en.png</file>
+        <file>images/flag_hu.png</file>
+        <file>images/flag_ru.png</file>
+        <file>languages/VisualMemoryTest_es.qm</file>
+        <file>languages/VisualMemoryTest_ru.qm</file>
+        <file>images/up_arrow.png</file>
+        <file>images/down_arrow.png</file>
+        <file>languages/VisualMemoryTest_de.qm</file>
+        <file>languages/VisualMemoryTest_en.qm</file>
+        <file>languages/VisualMemoryTest_hu.qm</file>
+        <file>images/helpbckgrnd.jpg</file>
+    </qresource>
+</RCC>

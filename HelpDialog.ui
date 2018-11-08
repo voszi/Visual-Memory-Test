@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>HelpDialog</class>
+ <widget class="QDialog" name="HelpDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>421</width>
+    <height>444</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>376</width>
+    <height>272</height>
+   </size>
+  </property>
+  <property name="contextMenuPolicy">
+   <enum>Qt::NoContextMenu</enum>
+  </property>
+  <property name="windowTitle">
+   <string>Segítség a játékhoz</string>
+  </property>
+  <property name="modal">
+   <bool>true</bool>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0" colspan="2">
+    <widget class="QTextBrowser" name="textBrowser">
+     <property name="minimumSize">
+      <size>
+       <width>361</width>
+       <height>192</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-image: url(:/images/helpbckgrnd.jpg);</string>
+     </property>
+     <property name="html">
+      <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Ebben a könnyű vizuális memória tesztben az a feladat, hogy 10-10 összetartozó kártyapárt találjunk meg minél rövidebb idő alatt.&lt;br /&gt;Kattintson az egérrel egy lefelé fordított kártya hátlapjára. A kártya megfordul. Ezután kattintson egy másik lefelé fordíott kártyára, amelyről feltételezi, hogy az előző párja. Ez a kártya is megfordul. Amennyiben a kártyák azonosak, színűkkel felfelé fordítva maradnak. Ellenkező esetben mindkét kártya lefelé fordul.&lt;br /&gt;&lt;br /&gt;A játék akkor ér véget, ha mind a tíz kártyapárt megtaláltuk.&lt;br /&gt;&lt;br /&gt;A program indulásakor a kártyák szabályos sorrendben vannak a táblán: az 1. sor 1. oszlopában lévő kártya azonos a 3. sor 1. oszlopában lévővel, 1. sor 2. oszlop a 3. sor 2. oszloppal, és így tovább.&lt;br /&gt;&lt;br /&gt;Az&lt;/span&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt; Új játék&lt;/span&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt; gomb megnyomása véletlenszerűen osztja le a lapokat.&lt;br /&gt;&lt;br /&gt;Az &lt;/span&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;F11&lt;/span&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt; megnyomásával a program teljes képernyős módra vált, ebből az &lt;/span&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;Esc &lt;/span&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;billentyűvel lehet visszatérni.&lt;br /&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <spacer name="horizontalSpacer">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>274</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="1" column="1">
+    <widget class="QPushButton" name="pushButton">
+     <property name="maximumSize">
+      <size>
+       <width>75</width>
+       <height>23</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>Bezár</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
