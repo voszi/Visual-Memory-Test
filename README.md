@@ -1,4 +1,4 @@
-# Visual-Memory-Test
+# VisualMemoryTest
 A tiny visual memory test
 In this visual memory test the task is to find 10 related pairs of cards in the shortest possible time.
 Click on the back of a downside card. The card will turn. Then click on another downside card that you assume is its pair. This card is also back. If the cards are the same, they stay upside-down. Otherwise, both cards face down.
